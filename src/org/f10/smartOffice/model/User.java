@@ -4,7 +4,7 @@ public class User {
     private String name;
     private String address;
     private String phoneNumber;
-    private IRole iRole;
+    private IRole role;
 
     public User(String name, String address, String phoneNumber){
         this.name = name;
@@ -36,12 +36,12 @@ public class User {
         this.phoneNumber = phoneNumber;
     }
 
-    public void setiRole(IRole iRole) {
-        this.iRole = iRole;
+    public void setiRole(IRole role) {
+        this.role = role;
     }
 
-    public IRole getiRole() {
-        return iRole;
+    public IRole getRole() {
+        return role;
     }
 
     @Override
