@@ -1,4 +1,4 @@
-package org.f10.smartOffice.model;
+package org.f10.smartOffice.model.javaImplementation;
 
 import java.util.Date;
 

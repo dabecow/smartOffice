@@ -1,7 +1,7 @@
 package org.f10.smartOffice.controller.javaImplementation;
 
 import org.f10.smartOffice.controller.base.IUserController;
-import org.f10.smartOffice.model.Result;
+import org.f10.smartOffice.model.javaImplementation.Result;
 
 public class UserController implements IUserController {
 
