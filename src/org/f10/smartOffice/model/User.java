@@ -1,15 +1,21 @@
 package org.f10.smartOffice.model;
 
 public class User {
+    private int id;
     private String name;
     private String address;
     private String phoneNumber;
     private IRole iRole;
 
-    public User(String name, String address, String phoneNumber){
+    public User(int id, String name, String address, String phoneNumber){
+        this.id = id;
         this.name = name;
         this.address = address;
         this.phoneNumber = phoneNumber;
+    }
+
+    public int getId(){
+        return id;
     }
 
     public String getAddress() {
